@@ -1,9 +1,9 @@
 # atomyCyprus
 The main web-shop Atomy in Cyprus!
 
-**Software Requirements Specification**
+***Software Requirements Specification***
 
-1. Introduction
+**1. Introduction**
 
 The purpose of the document is to define the functional and non-functional requirements for the Atomy Cyprus website, designed for users who want to order the company's products and receive support from live mentors via Telegram.
 
