@@ -1,0 +1,186 @@
+<!-- THE MAIN PAGE OF ATOMY CYPRUS HERE -->
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" /> <!-- link to the stylesheet -->
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width , initial-scale=1">
+	<title>Атоми Кипр. Атоми корейская косметика Кипр</title>
+</head>
+
+<script>
+    window.onload = function() {
+        // Checking, if this flag in localStorage
+        if (localStorage.getItem("isRegistered")) {
+            alert("Ваш аккаунт зарегистрирован, и вы сейчас в нём!");
+            // Remove the flag so that the message does not appear again.
+            localStorage.removeItem("isRegistered");
+        }
+    };
+</script>
+
+
+<body>
+	<header> <!-- header bar that is going to appear at the top of the screen -->
+		<a href="mainpage.html">
+			<div class="logo"><img src="resources/images/logo-atomy-dynasty2.svg" alt="atomyLogo"> </div>
+        </a>
+		<nav> <!-- place the navigation links in a <nav> tag for accessibility purposes -->
+			
+			
+			<div class="burger-menu" onclick="toggleMenu()">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+			
+			<ul class="myNav">
+				<li class="navList"><a href="mainpage.html" data-ru="Главная" data-en="Home">Главная</a></li>
+                <li class="navList"><a href="production.html" data-ru="Продукция" data-en="Products">Продукция</a></li>
+                <li class="navList"><a href="cart.html" data-ru="Ваша корзина" data-en="Your Cart">Ваша корзина</a></li>
+                <li class="navList"><a href="contacts.html" data-ru="Свяжитесь с нами!" data-en="Contact Us!">Свяжитесь с нами!</a></li>
+                <li class="navList"><a href="form.html" data-ru="My Atomy" data-en="My Atomy">My Atomy</a></li>
+            </ul>
+
+			</ul>
+		</nav>
+		<button onclick="toggleLanguage()" id="languageToggle">EN</button>
+	</header>
+
+<!-- The flexible grid (content)! --> 
+	<br />
+	<div class="container">
+	
+		<img src="resources/images/backgroundOffice.jpg" alt="Office">
+		<div class="mainText" data-ru="Атоми Кипр" data-en="Atomy Cyprus">Атоми Кипр</div>
+		<div class="descriptionText" data-ru="Приглашаем к сотрудничеству партнеров из Кипра, чтобы развивать свой бизнес вместе с нами, в любом регионе мира." data-en="We invite partners from Cyprus to cooperate to develop their business with us in any region of the world.">Приглашаем к сотрудничеству партнеров из Кипра, чтобы развивать свой бизнес вместе с нами, в любом регионе мира.</div>
+    </div>
+		
+		
+	<h2 data-ru="Продукция Atomy&trade;" data-en="Products Atomy&trade;">Продукция Atomy&trade;</h2>
+	<br />
+	<p data-ru="Стратегия Atomy&trade; заключается в возможности покупать премиальную высокого качества вещи, не опустошая свой кошелек. Компания снижает цены до минимума. Поэтому вы можете быть уверены в том, что получаете продукцию высокого качества по лучшей цене!;" data-en="Atomy's&trade; strategy is the ability to buy premium, high-quality items without emptying your wallet. The company reduces prices to a minimum. So you can be sure that you are getting high quality products at the best price!">Стратегия Atomy&trade; заключается в возможности покупать премиальную высокого качества вещи, не опустошая свой кошелек. Компания снижает цены до минимума. Поэтому вы можете быть уверены в том, что получаете продукцию высокого качества по лучшей цене!</p>
+	
+	<div class="container_2">
+		<div class="cube" onclick="window.location.href='production.html';">
+			<img src="resources/images/forcubes/month.jpg" alt="Month">
+			<h3 data-ru="Товары Месяца" data-en="Products of the Month">Товары Месяца</h3>
+		</div>
+		<div class="cube" onclick="window.location.href='production.html';">
+			<img src="resources/images/forcubes/health.jpg" alt="Health">
+			<h3 data-ru="Здоровье" data-en="Health">Здоровье</h3>
+		</div>
+		<div class="cube" onclick="window.location.href='';">
+			<img src="resources/images/forcubes/cosmetica.jpg" alt="Cosmetics">
+			<h3 data-ru="О нас" data-en="About Us">О нас</h3>
+		</div>
+		<div class="cube" onclick="window.location.href='';">
+			<img src="resources/images/forcubes/other.png" alt="Other">
+			<h3 data-ru="Многое другое" data-en="Many More">Многое другое</h3>
+		</div>
+	</div>
+
+	<br />
+	<br />
+
+	<div class="container_3">
+		<h2 data-ru="О компании Atomy&trade;" data-en="About Atomy&trade;">О компании Atomy&trade; </h2>
+		<br />
+		<p data-ru="Atomy&trade;, основанная в 2009 году компания Aтоми является международной компанией сетевого маркетинга, осуществляющей прямые продажи в 27 регионах мира, включая Корею (по состоянию на декабрь 2023 года). С момента своего основания Aтоми быстро развивалась благодаря сетевому маркетингу, ориентированному на потребителя, строго придерживаясь принципа Председателя Пак Хан Гиля «абсолютное качество по абсолютной цене». Компания неустанно работала над созданием основы для устойчивого роста в рамках инновационного мышления, которое ставит успех клиентов в качестве своей ключевой цели, а корпоративная культура компании основана на принципах совместного роста и соучастия. Atomy использует стратегию сетевого маркетинга, ориентированную на потребителя. Мы выбираем выгодные товары более высокого качества по более разумным ценам и продаем их через каналы сбыта, которые могут составить конкуренцию универмагам, дисконтным магазинам, сетям домашних магазинов и интернет-магазинам. Другими словами, для наших клиентов мы находим более конкурентоспособные по качеству и цене продукты, чем аналогичные продукты, распространяемые по другим каналам С помощью этой стратегии мы намерены достичь нашей конечной цели — перейти от удовлетворения потребностей клиента к обеспечению его успеха." 
+		   data-en="Atomy&trade; founded in 2009, Atomi is an international network marketing company with direct sales in 27 regions of the world, including Korea (as of December 2023). Since its founding, Atomi has developed rapidly through consumer-oriented network marketing, strictly adhering to Chairman Park Han Gil's principle of 'absolute quality at absolute price.' The company has worked tirelessly to create a foundation for sustainable growth through an innovative mindset that places customer success at its core and a company culture rooted in shared growth and ownership. We select better, better quality products at more reasonable prices and sell them through distribution channels that can compete with supermarkets, discount stores, home store chains and online retailers. In other words, we find products that are more competitive in quality and price for our customers than similar products distributed through other channels. With this strategy, we intend to achieve our ultimate goal of moving from meeting customer needs to ensuring customer success.">
+		   Atomy&trade;, основанная в 2009 году компания Aтоми является международной компанией сетевого маркетинга, осуществляющей прямые продажи в 27 регионах мира, включая Корею (по состоянию на декабрь 2023 года). С момента своего основания Aтоми быстро развивалась благодаря сетевому маркетингу, ориентированному на потребителя, строго придерживаясь принципа Председателя Пак Хан Гиля «абсолютное качество по абсолютной цене». Компания неустанно работала над созданием основы для устойчивого роста в рамках инновационного мышления, которое ставит успех клиентов в качестве своей ключевой цели, а корпоративная культура компании основана на принципах совместного роста и соучастия. Atomy использует стратегию сетевого маркетинга, ориентированную на потребителя. Мы выбираем выгодные товары более высокого качества по более разумным ценам и продаем их через каналы сбыта, которые могут составить конкуренцию универмагам, дисконтным магазинам, сетям домашних магазинов и интернет-магазинам. Другими словами, для наших клиентов мы находим более конкурентоспособные по качеству и цене продукты, чем аналогичные продукты, распространяемые по другим каналам С помощью этой стратегии мы намерены достичь нашей конечной цели — перейти от удовлетворения потребностей клиента к обеспечению его успеха.
+		</p>
+		<div class="iframe-wrapper">
+			<iframe 
+				id="videoIframe"
+				src="https://www.youtube.com/embed/ZoxRHYclHhk?si=JP_GttBmCv_Tl62f" 
+				frameborder="0" allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+
+	<br />
+	<div class="container_4">
+        <h2 data-ru="Ваш будущий наставник" data-en="Your Future Mentor">Ваш будущий наставник</h2>
+        <img src="resources/images/info/nastavnik.jpg" alt="Nastavnik" class="nastavnik">
+        <h2 data-ru="Элеонора Мицковская" data-en="Eleanora Mitskovskaya">Элеонора Мицковская</h2>
+        <p data-ru="Здравствуйте! Меня зовут Элеонора Мицковская, я независимый дистрибьютор Южно-Корейской компании ATOMY. Хочу предложить вам сотрудничество! Это онлайн работа, уделив которой 1-2 часа в день, можно выйти на хороший доход."
+            data-en="Hello! My name is Eleanora Mitskovskaya, and I am an independent distributor of the South Korean company ATOMY. I want to offer you cooperation! This is an online job, dedicating 1-2 hours a day can bring you a good income.">
+            Здравствуйте! Меня зовут Элеонора Мицковская, я независимый дистрибьютор Южно-Корейской компании ATOMY. Хочу предложить вам сотрудничество! Это онлайн работа, уделив которой 1-2 часа в день, можно выйти на хороший доход.
+        </p>
+        <ul>
+            <li data-ru="Бесплатное онлайн обучение" data-en="Free online training">Бесплатное онлайн обучение</li>
+            <li data-ru="Индивидуальная работа с каждым" data-en="Individual work with everyone">Индивидуальная работа с каждым</li>
+            <li data-ru="Обязательных ежемесячных закупок нет" data-en="No mandatory monthly purchases">Обязательных ежемесячных закупок нет</li>
+            <li data-ru="Личные баллы не сгорают" data-en="Personal points do not expire">Личные баллы не сгорают</li>
+            <li data-ru="Помощь и поддержка команды" data-en="Team support and assistance">Помощь и поддержка команды</li>
+            <li data-ru="Подходит для всех, кто имеет желание зарабатывать" data-en="Suitable for everyone who wants to earn money">Подходит для всех, кто имеет желание зарабатывать</li>
+            <li data-ru="Город и страна не имеют значения" data-en="City and country do not matter">Город и страна не имеют значения</li>
+        </ul>
+        <p data-ru="Выйдите на связь: +357 95 630620. Я объясню и помогу выйти на доход!"
+            data-en="Get in touch: +357 95 630620. I will explain and help you earn income!">
+            Выйдите на связь: +357 95 630620. Я объясню и помогу выйти на доход!
+        </p>
+        <a href="https://atomysite.ru/" class="link">
+            <img src="resources/images/info/Whatsapp.png" alt="WhatsAppLogo" class="whatsapp">
+        </a>
+		<a href="https://atomysite.ru/" class="link">
+            <img src="resources/images/info/telegramm.jpg" alt="TelegramLogo" class="telegramm">
+        </a>
+		<a href="https://atomysite.ru/" class="link">
+            <img src="resources/images/info/instagramm.jpg" alt="InstagramLogo" class="instagramm">
+        </a>
+    </div>
+	
+	<footer>
+	
+	<div class="footer-content">
+		<div class="footer-main">
+			<div class="footer-category">
+				
+				<div class="logo"><img src="resources/images/footerlogo.png" alt="atomyLogoF"> </div>
+				<h3 data-ru="До встречи!" data-en="See you soon!">До встречи!</h3>
+				<ul>
+					<li> <a href="https://web.telegram.org/a/#-1002273073504">Мы теперь в Телеграмме!</a></li>
+					
+				</ul>
+			</div>
+			
+			<div class="footer-category">
+				<h3 data-ru="Контакты" data-en="Contacts">Контакты</h3>
+				<ul>
+					<li> <a href="Whatsapp">Whatsapp: +35795727787</a></li>
+					<li> <a href="Telegram">Telegram: +35795727787</a></li>
+					<li> <a href="contact.html">Contact Form</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-category">
+				<h3 data-ru="Адрес" data-en="Address">Адрес</h3>
+				<ul>
+					<li>Noname Ave, Ipsonas, Limassol 5060</li>
+					<li data-ru="Время работы: Пн-Пт: 12:00 - 20:00" data-en="Opening hours: Mon-Fri: 12:00 - 20:00">Время работы: Пн-Пт: 12:00 - 20:00</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+		<div class="footer-extra">
+			<p data-ru="Этот сайт, на данный момент, создан для демонстрационных целей. Вся информация на данном демо-сайте может являтся недостоверной  или неполной." data-en="This site is currently created for demonstration purposes. All information on this demo site may be incorrect or incomplete.">Этот сайт, на данный момент, создан для демонстрационных целей. Вся информация на данном демо-сайте может являтся недостоверной  или неполной.</p>
+			<p data-ru="Atomy&trade; Все торговые марки принадлежат их уважаемым владельцам. Сайт носит исколючительно информационный характер. Информация на сайте atomysite.cy не является публичной офертой." data-en="Atomy&trade; All trademarks belong to their respective owners. The site is for informational purposes only. The information on the website atomysite.cy is not a public offer.">Atomy&trade; Все торговые марки принадлежат их уважаемым владельцам. Сайт носит исколючительно информационный характер. Информация на сайте atomysite.cy не является публичной офертой.</p>
+		</div>
+		<div class="footer-bottom">
+			<h3 data-ru="Создатель сайта:" data-en="Webssite creator:">Создатель сайта:</h3>
+			<h3 data-ru="Мыслов Воркспейс" data-en="Myslov Workspace">Мыслов Воркспейс</h3>
+			<p data-ru="&copy; 2025 Все права защищены." data-en="&copy; 2025 All rights reserved.">&copy; 2025 Все права защищены.</p>
+		</div>
+	</footer>
+	
+		<script src="minimenu.js"></script>
+		<script src="lang.js"></script>
+	
+</body>
+
+
+</html>
