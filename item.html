@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AtomyCY - Item</title>
+    
+    <script src="item.js"></script>
+</head>
+
+<body>
+	<header> <!-- header bar that is going to appear at the top of the screen -->
+		<a href="mainpage.html">
+			<div class="logo"><img src="resources/images/logo-atomy-dynasty2.svg" alt="atomyLogo"> </div>
+        </a>
+
+		<nav> <!-- place the navigation links in a <nav> tag for accessibility purposes -->
+			
+			
+			<div class="burger-menu" onclick="toggleMenu()">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+			
+			<ul class="myNav">
+                <li class="navList"><a href="mainpage.html" data-ru="Главная" data-en="Home">Главная</a></li>
+                <li class="navList"><a href="production.html" data-ru="Продукция" data-en="Products">Продукция</a></li>
+                <li class="navList"><a href="cart.html" data-ru="Ваша корзина" data-en="Your Cart">Ваша корзина</a></li>
+                <li class="navList"><a href="contact.html" data-ru="Свяжитесь с нами!" data-en="Contact Us!">Свяжитесь с нами!</a></li>
+                <li class="navList"><a href="form.html" data-ru="My Atomy" data-en="My Atomy">My Atomy</a></li>
+            </ul>
+        </nav>
+        <button onclick="toggleLanguage()" id="languageToggle">EN</button>
+    </header>
+
+<!-- The flexible grid (content)! --> 
+	<br />
+
+    <main>
+        <div id="item-container">
+            <!-- Product details will be displayed here -->
+        </div>
+        <br />
+    </main>
+
+	<footer>
+	
+	<div class="footer-content">
+		<div class="footer-main">
+			<div class="footer-category">
+				
+				<div class="logo"><img src="resources/images/footerlogo.png" alt="atomyLogoF"> </div>
+				<h3 data-ru="До встречи!" data-en="See you soon!">До встречи!</h3>
+				<ul>
+					<li> <a href="https://www.anthology.com/learn-ultra">Blackboard Learn Ultra</a></li>
+					<li> <a href="https://www.google.com/">Google</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-category">
+				<h3 data-ru="Контакты" data-en="Contacts">Контакты</h3>
+				<ul>
+					<li> <a href="Whatsapp">Whatsapp: +35795727787</a></li>
+					<li> <a href="Telegram">Telegram: +35795727787</a></li>
+					<li> <a href="contact.html">Contact Form</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-category">
+				<h3 data-ru="Адрес" data-en="Address">Адрес</h3>
+				<ul>
+					<li>Noname Ave, Ipsonas, Limassol 5060</li>
+					<li data-ru="Время работы: Пн-Пт: 12:00 - 20:00" data-en="Opening hours: Mon-Fri: 12:00 - 20:00">Время работы: Пн-Пт: 12:00 - 20:00</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+		<div class="footer-extra">
+			<p data-ru="Этот сайт, на данный момент, создан для демонстрационных целей. Вся информация на данном демо-сайте может являтся недостоверной  или неполной." data-en="This site is currently created for demonstration purposes. All information on this demo site may be incorrect or incomplete.">Этот сайт, на данный момент, создан для демонстрационных целей. Вся информация на данном демо-сайте может являтся недостоверной  или неполной.</p>
+			<p data-ru="Atomy&trade; Все торговые марки принадлежат их уважаемым владельцам. Сайт носит исколючительно информационный характер. Информация на сайте atomysite.cy не является публичной офертой." data-en="Atomy&trade; All trademarks belong to their respective owners. The site is for informational purposes only. The information on the website atomysite.cy is not a public offer.">Atomy&trade; Все торговые марки принадлежат их уважаемым владельцам. Сайт носит исколючительно информационный характер. Информация на сайте atomysite.cy не является публичной офертой.</p>
+		</div>
+		<div class="footer-bottom">
+			<h3 data-ru="Создатель сайта:" data-en="Webssite creator:">Создатель сайта:</h3>
+			<h3 data-ru="Мыслов Воркспейс" data-en="Myslov Workspace">Мыслов Воркспейс</h3>
+			<p data-ru="&copy; 2025 Все права защищены." data-en="&copy; 2025 All rights reserved.">&copy; 2025 Все права защищены.</p>
+		</div>
+	</footer>
+	
+	<script src="lang.js"></script>
+	<script src="minimenu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+const translations = {
+    en: {
+        mainpage: "Main Page",
+        products: "Products",
+        cart: "Your Cart",
+        contact: "Contact Us!",
+        myAtomy: "My Atomy",
+        mainTitle: "Atomy Cyprus",
+        mainDesc: "We invite partners from Cyprus to collaborate with us to develop your business worldwide.",
+        productsTitle: "Atomy&trade; Products",
+        productsDesc: "Atomy&trade;'s strategy is to offer premium quality items at reasonable prices.",
+        aboutUsTitle: "About Atomy&trade;",
+        aboutUsDesc: "Atomy, founded in 2009, is a global network marketing company...",
+        footerCategory1: "Contacts",const translations = {
+    en: {
+        mainpage: "Main Page",
+        products: "Products",
+        cart: "Your Cart",
+        contact: "Contact Us!",
+        myAtomy: "My Atomy",
+        mainTitle: "Atomy Cyprus",
+        mainDesc: "We invite partners from Cyprus to collaborate with us to develop your business worldwide.",
+        productsTitle: "Atomy&trade; Products",
+        productsDesc: "Atomy&trade;'s strategy is to offer premium quality items at reasonable prices.",
+        aboutUsTitle: "About Atomy&trade;",
+        aboutUsDesc: "Atomy, founded in 2009, is a global network marketing company...",
+        footerCategory1: "Contacts",
+        contactPhone: "WhatsApp: +35795727787",
+        contactTelegram: "Telegram: +35795727787",
+    },
+    ru: {
+        mainpage: "Главная",
+        products: "Продукция",
+        cart: "Ваша корзина",
+        contact: "Свяжитесь с нами!",
+        myAtomy: "My Atomy",
+        mainTitle: "Атоми Кипр",
+        mainDesc: "Приглашаем к сотрудничеству партнеров из Кипра, чтобы развивать свой бизнес вместе с нами, в любом регионе мира.",
+        productsTitle: "Продукция Atomy&trade;",
+        productsDesc: "Стратегия Atomy&trade; заключается в возможности покупать премиальную высокого качества вещи, не опустошая свой кошелек.",
+        aboutUsTitle: "О компании Atomy&trade;",
+        aboutUsDesc: "Atomy, основанная в 2009 году, является глобальной компанией сетевого маркетинга...",
+        footerCategory1: "Контакты",
+        contactPhone: "WhatsApp: +35795727787",
+        contactTelegram: "Telegram: +35795727787",
+    },
+};
+
+// Function to change the language
+function changeLanguage(lang) {
+    document.querySelectorAll("[data-text]").forEach((element) => {
+        const key = element.getAttribute("data-text");
+        if (translations[lang][key]) {
+            element.textContent = translations[lang][key];
+        }
+    });
+}
+
+// Set default language on page load
+document.addEventListener("DOMContentLoaded", () => changeLanguage("ru"));
+        contactPhone: "WhatsApp: +35795727787",
+        contactTelegram: "Telegram: +35795727787",
+    },
+    ru: {
+        mainpage: "Главная",
+        products: "Продукция",
+        cart: "Ваша корзина",
+        contact: "Свяжитесь с нами!",
+        myAtomy: "My Atomy",
+        mainTitle: "Атоми Кипр",
+        mainDesc: "Приглашаем к сотрудничеству партнеров из Кипра, чтобы развивать свой бизнес вместе с нами, в любом регионе мира.",
+        productsTitle: "Продукция Atomy&trade;",
+        productsDesc: "Стратегия Atomy&trade; заключается в возможности покупать премиальную высокого качества вещи, не опустошая свой кошелек.",
+        aboutUsTitle: "О компании Atomy&trade;",
+        aboutUsDesc: "Atomy, основанная в 2009 году, является глобальной компанией сетевого маркетинга...",
+        footerCategory1: "Контакты",
+        contactPhone: "WhatsApp: +35795727787",
+        contactTelegram: "Telegram: +35795727787",
+    },
+};
+
+// Function to change the language
+function changeLanguage(lang) {
+    document.querySelectorAll("[data-text]").forEach((element) => {
+        const key = element.getAttribute("data-text");
+        if (translations[lang][key]) {
+            element.textContent = translations[lang][key];
+        }
+    });
+}
+
+// Set default language on page load
+document.addEventListener("DOMContentLoaded", () => changeLanguage("ru"));

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход в систему</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #2575fc;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1a5fd1;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .register-link a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Вход в систему</h2>
+        <form action="login.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" name="password" required>
+
+            <input type="submit" value="Войти">
+        </form>
+        <div class="register-link">
+            Ещё нет аккаунта? <a href="form.html">Зарегистрироваться</a>
+        </div>
+    </div>
+</body>
+</html>
